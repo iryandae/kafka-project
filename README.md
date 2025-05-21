@@ -79,11 +79,11 @@ kafka-topics.sh --create --topic sensor-kelembaban-gudang --bootstrap-server loc
 Cek kembali dan jika sudah berhasil kita bisa keluar dari container kafka dengan command `exit`
 
 ### 3. Masuk ke Virtual Environment
-Sebelum menjalankan *producer* dan *consumer* saya menggunakan **virtual environment** untuk memastikan bahwa dependensi yang digunakan tidak tercampur dengan sistem Python global.
+Sebelum menjalankan *producer* dan *consumer*, saya menggunakan **virtual environment** untuk memastikan bahwa dependensi yang digunakan tidak tercampur dengan sistem Python global.
 ```bash
 source venv-kafka/bin/activate
 ```
-Tampilan akan beruhah seperti gambar di bawah jika sudah berhasil masuk ke virtual environment
+Tampilan akan berubah seperti gambar di bawah jika sudah berhasil masuk ke virtual environment
 ![venv](https://github.com/user-attachments/assets/ebb3e6f3-e103-47a7-b837-00b322e74580)
 
 *Gambar 2: Virtual Environment*
