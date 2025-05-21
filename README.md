@@ -1,4 +1,4 @@
-# 🚨 Real-Time Warehouse Sensor Monitoring
+# Real-Time Warehouse Sensor Monitoring
 
 Proyek ini bertujuan untuk memantau suhu dan kelembaban dari berbagai gudang secara real-time menggunakan **Apache Kafka** dan **Apache Spark Structured Streaming**. Sistem ini mampu mendeteksi kondisi kritis seperti suhu tinggi, kelembaban tinggi, atau keduanya secara bersamaan.
 
@@ -93,8 +93,6 @@ Jalankan kedua *producer* pada terminal yang berbeda.
 ```bash
 python producer_suhu.py
 ```
-
-dan
 ```bash
 python producer_kelembaban.py
 ```
@@ -114,7 +112,6 @@ Setelah menjalankan producer, kita bisa menjalankan file sensor untuk menerima o
 ```
 
 Pada file `spark_sensor_suhu.py` dan `spark_sensor_kelembaban.py` akan muncul output seperti berikut:
-
 ```
 -------------------------------------------
 Batch: 1
@@ -133,7 +130,6 @@ Batch: 1
 ```
 
 Sedangkan output `spark_sensor_combined.py` akan memunculkan output berikut:
-
 ```
 -------------------------------------------
 Batch: 1
