@@ -68,6 +68,7 @@ kafka-topics.sh --bootstrap-server localhost:9092 --list
 ```
 Pastikan nama yang muncul sama dengan nama yang ada di dalam file Python
 ![topics](https://github.com/user-attachments/assets/db3249e2-0a6d-4a4d-ad48-ebc6da19a964)
+
 *Gambar 1: Kafka Topics*
 
 Jika tidak ada output yang muncul, anda bisa menjalankan command berikut:
@@ -84,6 +85,7 @@ source venv-kafka/bin/activate
 ```
 Tampilan akan beruhah seperti gambar di bawah jika sudah berhasil masuk ke virtual environment
 ![venv](https://github.com/user-attachments/assets/ebb3e6f3-e103-47a7-b837-00b322e74580)
+
 *Gambar 2: Virtual Environment*
 
 ### 4. Jalankan Producer
@@ -98,9 +100,11 @@ python producer_kelembaban.py
 ```
 *Producer* berhasil dijalankan ketika menghasilkan output seperti contoh di bawah:
 ![producer_suhu.py](https://github.com/user-attachments/assets/30210172-4646-448c-bdd0-44468ccc21ea)
+
 *Gambar 3: Output producer_suhu.py*
 
 ![producer_kelembaban.py](https://github.com/user-attachments/assets/f93d8b52-30fb-4c43-a254-be85772ab1b9)
+
 *Gambar 4: Output producer_kelembaban.py*
 
 ## 5. Jalankan PySpark Streaming
