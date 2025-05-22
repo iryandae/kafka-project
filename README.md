@@ -2,6 +2,8 @@
 
 Proyek ini bertujuan untuk memantau suhu dan kelembaban dari berbagai gudang secara real-time menggunakan **Apache Kafka** dan **Apache Spark Structured Streaming**. Sistem ini mampu mendeteksi kondisi kritis seperti suhu tinggi, kelembaban tinggi, atau keduanya secara bersamaan.
 
+https://github.com/iryandae/kafka-project
+
 ## Prasyarat
 
 - Python 3.8+
